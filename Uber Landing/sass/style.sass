@@ -1,0 +1,484 @@
+
+
+*
+  box-sizing: border-box
+  padding: 0
+  margin: 0
+
+body
+  font-family: 'Roboto', sans-serif
+
+@keyframes redchange
+  0%
+    background-color: #1eacc7
+  100%
+    background-color: #2a880e
+@keyframes incaunu
+  0%
+    width: 0%
+    background-color: #11eecc
+  100%
+    width: 100%
+    background-color: #1eacc7
+@keyframes logo
+  0%
+    transform: translateY(-55px)
+  100%
+    transform: translateY(40px)
+
+
+
+.nav_link
+  font-size: 15px
+  font-weight: 300
+  color: #c4c4c4
+  text-decoration: none
+  display: block
+
+.nav_list
+  list-style-type: none
+  display: flex
+  margin: 0
+  height: 50px
+  padding-left: 70px
+
+.nav_menu
+  height: 50px
+  background-color: #212121
+  position: fixed
+  z-index: 99
+  width: 100%
+
+.list_item
+  padding-right: 35px !important
+  padding-top: 10px
+  margin-right: 20px
+  padding-left: 30px !important
+  border-right: 2px dotted black
+
+.subheader_logo
+  margin: 0
+  font-weight: 100
+  font-size: 13px
+  color: #939494
+  margin-top: 5px
+
+.subheader
+  padding: 20px 0
+  background-color: rgba(0, 0, 0, 0.6)
+  position: absolute
+  width: 100%
+  top: 50px
+  z-index: 0
+
+.call_everyday
+  font-weight: 100
+  font-size: 12px
+  color: #aaabab
+
+.phone_link
+  font-weight: 400
+  font-size: 22px
+  color: #ffffff
+  text-decoration: none
+
+.call_info
+  width: 163px
+
+.call_everyday
+  text-align: right
+  margin: 0
+
+.call_me
+  text-decoration: none
+  text-transform: uppercase
+  font-weight: 400
+  font-size: 14px
+  display: block
+  background-color: #2ebfdb
+  width: 100%
+  text-align: center
+  height: 50px
+  padding-top: 13px
+  color: #FFF
+  border-radius: 5px
+  transition: 0.3s all
+
+.main_offer
+  padding-top: 50px
+  padding-bottom: 135px
+  text-align: center
+  color: #FFF
+  background: url(../images/Main_bg.jpg) center center / cover no-repeat
+
+  h2
+    margin-top: 150px
+    font-weight: 900
+    font-size: 68px
+
+  h1
+    font-weight: 700
+    font-size: 40px
+
+  .main_text
+    margin-top: 35px
+    font-weight: 400
+    font-size: 18px
+
+.btn_send
+  color: #FFF
+  display: block
+  font-weight: 400
+  font-size: 18px
+  text-decoration: none
+  background-color: #2ebfdb
+  width: 260px
+  margin: 0 auto
+  margin-top: 120px
+  padding-top: 20px
+  padding-bottom: 20px
+  border-radius: 6px
+  transition: 0.3s all
+
+.advantages_section
+  padding: 70px 0
+
+.advantage
+  width: 110px
+  display: block
+  text-transform: uppercase
+  font-weight: 100
+  font-size: 11px
+  padding: 5px
+  background-color: #000
+  margin: 0
+  text-align: center
+  color: #FFF
+  margin: 0 auto
+
+.reason_work
+  text-transform: uppercase
+  font-weight: 700
+  font-size: 38px
+  text-align: center
+  color: #222222
+  margin: 40px 0 0 0
+
+.heading_advantage
+  margin: 0
+  margin-bottom: 10px
+  max-width: 310px
+  font-weight: 300
+  font-size: 17px
+  color: rgba(30, 172, 199, 255)
+
+.about_advantages
+  font-weight: 300
+  font-size: 15px
+  color: rgba(32, 32, 32, 255)
+  max-width: 380px
+
+.circle_section
+  background-color: #1eacc7
+  width: 115px
+  height: 115px
+  text-align: center
+  display: flex
+  border-radius: 50%
+  transition: 1s all
+  animation: redchange 5s ease-in-out 0s infinite alternate-reverse none
+  &:hover
+    transform: scale(1.2)
+    cursor: pointer
+
+.circle_icon
+  margin: auto
+
+.wrapper_adv
+  margin-top: 45px
+  display: flex
+
+.text_advantages
+  margin-left: 30px
+
+.rowpp
+  padding: 0 40px
+
+.out_title
+  text-align: center
+  font-weight: 400
+  font-size: 17px
+  margin-top: 20px
+  margin-bottom: 0
+
+.mobile
+  padding-top: 50px
+  padding-bottom: 80px
+  background: url(../images/mobile_background.jpg) center center/cover no-repeat
+  &_plus_icon
+    &:active
+      background-color: red
+    position: absolute
+    bottom: 35px
+    left: 50%
+    transform: translateX(-50%)
+    cursor: pointer
+    width: 26px
+    height: 26px
+    background-color: #000
+    border-radius: 50%
+    &::before
+      content: ''
+      display: block
+      background-color: #0a58ca
+      width: 14px
+      height: 2px
+      position: absolute
+      top: 12px
+      left: 5px
+      transform: translateX(1px)
+    &::after
+      content: ''
+      display: block
+      background-color: #0a58ca
+      width: 2px
+      height: 14px
+      position: absolute
+      top: 6px
+      left: 11px
+      transform: translateX(1px)
+
+  &_item
+    position: relative
+    width: 320px
+    height: 280px
+    margin-top: 20px
+    padding-top: 90px
+    &_heading
+      font-weight: 400
+      font-size: 24px
+      color: white
+      text-align: center
+      text-transform: uppercase
+    
+    &_1
+      background: url(../images/mobile_item_bg_1.png) center center/cover no-repeat
+    &_2
+      background: url(../images/mobile_item_bg_2.png) center center/cover no-repeat
+    &_3
+      background: url(../images/mobile_item_bg_3.png) center center/cover no-repeat
+    &_4
+      background: url(../images/mobile_item_bg_4.png) center center/cover no-repeat 
+    &_5
+      background: url(../images/mobile_item_bg_5.png) center center/cover no-repeat  
+    &_6
+      background: url(../images/mobile_item_bg_6.png) center center/cover no-repeat        
+
+.rowsfsf
+  margin-top: 15px
+
+.choice_uber_bloc
+  position: relative
+  &_2
+    padding-top: 220px
+    height: 400px
+    background: url(../images/mobile_background.jpg) center center/cover no-repeat
+  &_1
+    height: 500px
+    background-color: #070716
+    padding-top: 55px
+
+.advantage_1
+  color: black
+  background-color: white
+.reason_work_1
+  margin-top: 30px
+  color: white
+.out_title_1
+  color: white
+  margin-top: 10px
+.car_text
+  margin: 0
+  font-weight: 100
+  font-size: 17px
+  text-align: center
+.circle_section:hover
+  background-color: red
+
+.conditions
+  padding-top: 70px
+  padding-bottom: 90px
+.rwmb
+  margin-bottom: 30px
+
+
+.list_conditions
+  list-style-type: none
+  li
+    font-weight: 300
+    font-size: 17px
+    color: #222222
+    position: relative
+    margin-bottom: 10px
+    &::before
+      content: ''
+      width: 20px
+      height: 20px
+      display: block
+      background: url(../images/checkbox.svg) center center/cover no-repeat
+      position: absolute
+      left: -31px
+      transform: translateY(2px)
+  .red::before
+    background: url(../images/checkbox_red.svg) center center/cover no-repeat
+.conditions_text
+  color: #1ca8c3
+  font-weight: 300
+.conditions_terms
+  font-weight: 400
+  font-size: 22px
+  color: rgba(28,168,195,255)
+  &_2
+    color: #ff5656
+.mtoplist
+  margin-top: 70px
+.world_section
+  background: url(../images/bg_world_section.jpg) center center/cover no-repeat
+  min-height: 720px
+  padding: 50px 0px
+  position: relative
+  .see_countries
+    position: absolute
+    bottom: 50px
+    left: 50%
+    transform: translateX(-50%)
+    font-weight: 400
+    font-size: 15px
+    color: #1fbad6
+    text-transform: uppercase
+    text-decoration: none
+.social_links
+  display: flex
+._linkto
+  width: 35px
+  height: 35px
+  background-color: #070716
+  border-radius: 50%
+  margin-right: 10px
+  display: flex
+  justify-content: center
+  align-items: center
+  .soc_link
+    color: white
+footer
+  padding-bottom: 60px
+  padding-top: 50px
+  padding-left: 20px
+  padding-right: 20px
+.menu_links_site
+  font-weight: 100
+  font-size: 15px
+  color: #070716
+  text-decoration: none
+  text-transform: uppercase
+  margin-right: 45px
+  &:hover
+    color: blue
+.menu_linkes_alt_link
+  text-decoration: none
+  font-weight: 100
+  color: #a0a0a0
+  font-size: 12px
+  text-transform: uppercase
+  margin-right: 20px
+.wrap_footer
+  display: flex
+  justify-content: space-between
+.menu_links
+  text-align: center
+.menu_links_alt
+  margin-top: 18px
+  text-align: center
+.nommr
+  margin: 0
+.page_links
+  transform: translateX(15%)
+ 
+.call_me:hover
+  color: white
+.btn_send:hover
+  color: white
+.call_me:active
+  transform: scale(1.3)
+.btn_send:active
+  transform: scale(1.3)
+.animation_mobile
+  transition: 0.3s all
+.animation_mobile:hover
+  transform: scale(1.15)
+  cursor: pointer
+  border-radius: 20px
+.batzu
+  position: absolute
+  top: 10px
+  bottom: 0px
+  right: 0px
+  left: 0px
+  height: 5px
+  background-color: #1fbad6
+  margin: 0 auto
+  animation: incaunu 1.1s ease-in-out 0s infinite normal none
+footer
+  position: relative
+._linkto:hover
+  transform: translateY(-12px) scale(1.2)
+  cursor: pointer
+  transition: 0.6s all
+  
+.linkto
+  transition: 0.6s all ease
+.end
+  width: 100%
+  height: 8px
+  background-color: #070716
+.choice_uber_bloc_1
+  .container
+    text-align: center
+.uber_car
+        margin-top: 50px
+.liactive
+  left: 0
+.hamburger
+  display: none
+.phone_link_clon
+  display: none
+.mereunui
+  color: white
+  display: none
+.estett
+  display: block
+.list_item
+  margin-left: 10
+  padding-left: 10px
+
+.arrowback
+    position: fixed
+    top: 2%
+    left: 3%
+    font-size: 150px
+    color: red
+    opacity: 0.8
+    transition: 0.3s all ease-in-out
+    z-index: 101
+
+
+.arrowback:active
+    border: none
+    outline: none
+
+.arrowback:hover
+    transform: scale(1.2)
+    transition: 0.3s all ease-in-out
+
+
+@import "media"

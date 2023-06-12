@@ -1,0 +1,1084 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+@keyframes opacities {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+footer {
+  height: 100px; }
+
+.footer_text {
+  font-family: "Montserrat", sans-serif;
+  display: block; }
+
+.wrap_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.paragraph {
+  margin: 0;
+  font-size: 12px;
+  border-right: 1px dashed black;
+  padding-right: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #373434; }
+  .paragraph_two {
+    margin-left: 5px; }
+
+.logo {
+  display: block;
+  width: 180px;
+  height: 60px; }
+
+header {
+  background-color: #F6F6F6;
+  width: 100%;
+  height: 100px; }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.logo__phrase {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 500; }
+
+.logo_wrap {
+  width: 200px;
+  height: auto; }
+
+.navigation__menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0; }
+
+.navigation__link {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.1s ease-in-out; }
+  .navigation__link:hover {
+    color: #ec1c00;
+    transition: all 0.3s linear; }
+
+.phone_icon {
+  width: 13px;
+  margin-right: 5px;
+  color: black; }
+
+.about_us__wrapper {
+  cursor: text;
+  display: flex; }
+
+.wrap_fixed_section {
+  position: fixed;
+  width: 100%; }
+
+.about_us {
+  background-color: rgba(0, 0, 0, 0.09); }
+
+.about_us_phone_block {
+  display: flex;
+  align-items: center; }
+
+.about_us_email_block {
+  margin-left: 5px;
+  align-items: center; }
+
+.about_us_working_hours {
+  margin-left: 5px;
+  align-items: center; }
+
+.paragraph_hours {
+  padding-left: 5px;
+  border: none; }
+
+.about_us_nonstop {
+  margin-left: 5px;
+  align-items: center; }
+
+.p_span {
+  font-weight: bold;
+  text-decoration: underline; }
+
+.main_offer {
+  background-image: url("../img/main_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  transform: translateY(120px); }
+  .main_offer_wrapper {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .main_offer_section_1 {
+    font-family: "Montserrat", sans-serif;
+    color: white; }
+    .main_offer_section_1_description {
+      width: 400px; }
+  .main_offer_section_2 {
+    animation: opacities 2s linear 1s 1 normal none;
+    animation-fill-mode: forwards; }
+
+h1 {
+  font-weight: bold;
+  letter-spacing: 0.05em; }
+
+.arrow {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 30px;
+  bottom: 30px;
+  z-index: 3;
+  opacity: 0.6;
+  transition: all 0.3s linear;
+  animation: opacities 2.5s ease-in-out 0s 1 normal none;
+  animation-fill-mode: forwards; }
+  .arrow:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+
+iframe {
+  display: block;
+  border: 3px dashed rgba(27, 11, 247, 0.699);
+  padding: 5px; }
+
+.footer_text_1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.1em; }
+
+.footer_text_2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500px; }
+
+hr {
+  position: relative;
+  z-index: -1; }
+
+.container_o {
+  display: none; }
+
+nav {
+  padding-top: 5px; }
+
+.displayoff {
+  display: block; }
+
+.hamburger {
+  display: none;
+  width: 40px;
+  height: 12px;
+  position: fixed;
+  right: 3%; }
+  .hamburger_active span {
+    margin-bottom: -2px; }
+    .hamburger_active span:nth-child(1) {
+      transform: translateY(3px) rotate(-45deg); }
+    .hamburger_active span:nth-child(2) {
+      display: none; }
+    .hamburger_active span:nth-child(3) {
+      transform: translateY(3px) rotate(45deg); }
+
+.hamburger_line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 6px;
+  background-color: black;
+  transition: 0.5s all; }
+
+hr {
+  position: relative;
+  z-index: -1; }
+
+.container_o {
+  display: none; }
+
+nav {
+  padding-top: 5px; }
+
+.displayoff {
+  display: block; }
+
+.contact_section {
+  transform: translateY(120px);
+  padding-top: 50px;
+  background: #626262;
+  background: linear-gradient(45deg, #626262 62%, #a4a4a4 62%);
+  padding-bottom: 70px; }
+
+hr {
+  position: relative;
+  z-index: -1; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase; }
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.price_offer {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+  padding-left: 5px; }
+
+.ca_image {
+  width: 150px;
+  height: 100px;
+  border-radius: 10px; }
+
+.descr_phrase {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; }
+
+.text_about {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px; }
+
+.icons_block {
+  display: flex;
+  justify-content: space-between; }
+
+.description_of_car {
+  width: 400px;
+  padding-right: 10px; }
+
+.tarif_wrapper {
+  display: flex;
+  height: 100px;
+  width: 540px;
+  justify-content: space-around;
+  border-left: 1px solid black;
+  padding-left: 5px; }
+
+.tarif_day {
+  margin-bottom: 0;
+  font-family: "Kiwi Maru", serif;
+  font-weight: 500;
+  margin-top: 5px;
+  border-bottom: 3px solid red;
+  text-transform: uppercase;
+  font-size: 17px; }
+
+.tarif_price {
+  margin: 0;
+  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center; }
+
+.icon_element {
+  margin-right: 5px;
+  color: #d1d1d1; }
+
+span {
+  font-weight: 700;
+  text-decoration: underline; }
+
+.tarif_price_two {
+  margin: 0; }
+
+.tarif_wrapper_two {
+  align-items: center; }
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.wrap_title {
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 10px; }
+  .wrap_title_margin {
+    margin-top: 70px; }
+
+.arrow {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 30px;
+  bottom: 30px;
+  z-index: 300;
+  opacity: 0.6;
+  transition: all 0.3s linear;
+  animation: opacities 2.5s ease-in-out 0s 1 normal none;
+  animation-fill-mode: forwards; }
+  .arrow:hover {
+    transform: scale(1.1);
+    cursor: pointer; }
+
+.links_to_categories {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px; }
+
+.category_link {
+  display: block;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: red;
+  text-transform: uppercase;
+  font-size: 21px;
+  color: aliceblue;
+  border-bottom: 1px solid aliceblue;
+  transition: all 0.3s ease-in-out; }
+  .category_link:hover {
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid blue; }
+
+.hamburger_line {
+  display: block;
+  width: 100%;
+  height: 4px;
+  margin-bottom: 6px;
+  background-color: black;
+  transition: 0.5s all; }
+
+.hamburger {
+  display: none;
+  width: 40px;
+  height: 12px; }
+  .hamburger_active span {
+    margin-bottom: -3px; }
+    .hamburger_active span:nth-child(1) {
+      transform: translateY(3px) rotate(-45deg); }
+    .hamburger_active span:nth-child(2) {
+      display: none; }
+    .hamburger_active span:nth-child(3) {
+      transform: translateY(3px) rotate(45deg); }
+
+.displayoff {
+  display: block; }
+
+.container_o {
+  display: none; }
+
+nav {
+  padding-top: 5px; }
+
+hr {
+  position: relative;
+  z-index: -1; }
+
+.tarif_off_line {
+  display: none; }
+
+hr {
+  display: none; }
+
+.contact_section_form {
+  transform: translateY(120px);
+  height: 550px;
+  background-image: url("../img/bg_section_three.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px; }
+
+.contact_heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.phone_icon_contact {
+  font-size: 38px;
+  margin-right: 0px;
+  color: red; }
+
+.background_contact_icon {
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contact_number {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  width: 245px; }
+  .contact_number:hover {
+    color: white; }
+
+.wrapp_contact_link {
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 75px;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: rgba(62, 62, 62, 0.3);
+  transition: all 0.2s ease-in-out; }
+  .wrapp_contact_link:hover {
+    transform: scale(1.05);
+    background-color: rgba(62, 62, 62, 0.4);
+    transition: all 0.2s ease-in-out; }
+
+.mr_0 {
+  margin: 0; }
+
+.wrapp_contact {
+  display: flex;
+  justify-content: space-around; }
+
+.message_header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 33px;
+  color: white;
+  text-align: center; }
+
+form {
+  display: flex;
+  flex-direction: column; }
+
+.place_form {
+  width: 350px;
+  height: 55px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 40px; }
+
+.form_bg {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(62, 62, 62, 0.749);
+  border-radius: 10px; }
+
+.submitbtn {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 350px;
+  height: 55px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: red;
+  color: white; }
+
+.sendmessage_header {
+  color: white;
+  font-size: 30px; }
+
+.social_icons_section {
+  display: flex;
+  width: 300px; }
+
+.icon_nav {
+  font-size: 19px; }
+  .icon_nav_1 {
+    margin-right: 25px;
+    color: #43d854; }
+  .icon_nav_2 {
+    color: #665CAC;
+    margin-right: 35px; }
+
+.contact_section_form {
+  position: relative;
+  z-index: 100; }
+
+.about_us_working_hours_alt {
+  display: flex; }
+
+.par_alt {
+  width: auto; }
+
+.linkcall {
+  text-decoration: none; }
+
+.maxheight {
+  height: 100%; }
+
+.go_write {
+  text-decoration: none;
+  color: white; }
+
+@media (max-width: 991px) {
+  .about_us_working_hours_alt {
+    display: flex; }
+
+  .about_us_working_hours, .about_us_nonstop {
+    display: none; }
+
+  .about_us__wrapper {
+    justify-content: center; }
+
+  .navigation__link {
+    font-size: 18px; } }
+@media (max-width: 767px) {
+  .about_us_working_hours_alt {
+    display: flex; } }
+@media (max-width: 350px) {
+  .about_us_working_hours_alt {
+    display: flex; }
+
+  .paragraph {
+    font-size: 8px; }
+
+  .logo__phrase {
+    font-size: 20px;
+    text-transform: uppercase; }
+
+  .contact_header {
+    font-size: 30px; }
+
+  .place_form {
+    margin: 40 auto;
+    width: 260px; }
+
+  .submitbtn {
+    width: 260px; } }
+@media (max-width: 1400px) {
+  footer {
+    height: 50px;
+    margin-top: 150px; } }
+@media (max-width: 1200px) {
+  footer {
+    height: 50px;
+    margin-top: 150px; }
+
+  .tarif_day {
+    font-size: 13px;
+    text-align: center; }
+
+  .descr_phrase {
+    margin: 0;
+    margin-top: 7px; }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px; }
+
+  .description_of_car {
+    padding: 0; }
+
+  .descr_phrase_wrapper {
+    margin-left: 5px; }
+
+  .text_about {
+    font-size: 10px; } }
+@media (max-width: 991px) {
+  .paragraph {
+    font-size: 10px; }
+
+  .navigation__link {
+    font-size: 17px; }
+
+  .contact_section {
+    padding-top: 25px; }
+
+  .category_link {
+    font-size: 16px; }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 15px; }
+
+  h4 {
+    font-size: 20px; }
+
+  .text_about {
+    font-size: 11px; }
+
+  h2 {
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px; }
+
+  .description_of_car {
+    padding: 0; }
+
+  .tarif_wrapper_two {
+    padding: 0; }
+
+  .price_offer {
+    padding-left: 10px; }
+
+  .descr_phrase {
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 10px; }
+
+  .descr_phrase {
+    display: none; }
+
+  .tarif_none {
+    display: none; }
+
+  .tarif_day {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: none; }
+
+  .tarif_block {
+    width: 80px; }
+
+  .container_ww {
+    display: none; }
+
+  .container_oo {
+    display: block; } }
+@media (max-width: 767px) {
+  h2 {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 400; }
+
+  .container_w {
+    display: none; }
+
+  .container_o {
+    display: block; }
+
+  nav {
+    padding: 5px 15px; }
+
+  .logo__phrase {
+    font-size: 24px; }
+
+  .about_us__wrapper {
+    padding-left: 3%; }
+
+  .main_offer_wrapper {
+    justify-content: space-around; }
+
+  .wrap_footer {
+    justify-content: space-around; }
+
+  .displayoff {
+    display: none; }
+
+  .hamburger {
+    display: block; }
+
+  .about_us__wrapper {
+    justify-content: center; }
+
+  .phone_icon {
+    font-size: 13px; }
+
+  .navigation__link {
+    color: white; }
+
+  .contact_section {
+    transform: none; }
+
+  .wrap_fixed_section {
+    position: relative; }
+
+  .navigation__menu {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 50;
+    left: -100%;
+    justify-content: space-evenly;
+    transition: 0.2s all ease-in-out; }
+
+  .navigation__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.1s ease-in-out; }
+    .navigation__link:hover {
+      color: #ec1c00;
+      transition: all 0.3s linear; }
+
+  .liactive {
+    left: 0; }
+
+  .footer_text {
+    transform: none;
+    margin: 0; }
+
+  .wrap_footer {
+    height: 100px;
+    align-items: center;
+    justify-content: space-between; }
+
+  .footer_text_2 {
+    font-size: 8px;
+    font-weight: 600;
+    text-transform: uppercase; }
+
+  hr {
+    display: none; } }
+@media (max-width: 730px) {
+  .tarif_price {
+    margin: 0; }
+
+  .tarif_day {
+    display: none; }
+
+  .tarif_wrapper {
+    flex-direction: column;
+    width: 130px;
+    align-items: center; }
+
+  .tarif_off_line {
+    display: flex; }
+
+  .tarif_price {
+    font-weight: 600;
+    font-size: 15px; }
+
+  .tarif_price_alternative {
+    color: #d9d9d9; }
+
+  .links_to_categories {
+    flex-direction: column; }
+
+  .about_us_email_block, .about_us_nonstop {
+    display: none; } }
+@media (max-width: 575px) {
+  .navigation__menu {
+    width: 70%; }
+
+  .tarif_price {
+    margin: 0; }
+
+  .tarif_day {
+    display: none; }
+
+  .tarif_wrapper {
+    flex-direction: column; }
+
+  .about_us_email_block, .about_us_nonstop {
+    display: none; }
+
+  .category_link {
+    font-size: 14px; }
+
+  .paragraph {
+    font-size: 9px; }
+
+  .footer_text_2 {
+    display: none; }
+
+  .wrap_footer {
+    justify-content: center; } }
+@media (max-width: 430px) {
+  .paragraph {
+    font-size: 8px; }
+
+  .tarif_price {
+    font-size: 12px; }
+
+  .tarif_wrapper {
+    width: 80px; }
+
+  .ca_image {
+    width: 100px;
+    height: 80px; } }
+@media (max-width: 370px) {
+  .tarif_price {
+    font-size: 11px; }
+
+  .ca_image {
+    width: 80px;
+    height: 70px; }
+
+  .contact_section {
+    padding-top: 70px; } }
+@media (max-width: 1200px) {
+  .main_offer_section_1_description {
+    width: 300px;
+    font-size: 14px; } }
+@media (max-width: 991px) {
+  footer {
+    height: 100px;
+    margin: 0;
+    display: flex;
+    align-items: center; }
+
+  .contact_section_form {
+    transform: none;
+    margin-top: 120px; }
+
+  .paragraph {
+    font-size: 11px; }
+
+  .navigation__link {
+    font-size: 18px; }
+
+  .logo__phrase {
+    transform: translateX(1%);
+    font-size: 28px; }
+
+  iframe {
+    width: 350px;
+    height: 320px; }
+
+  .main_offer_section_1_description {
+    width: 280px;
+    font-size: 13px;
+    font-weight: 500; }
+
+  .main_offer_wrapper {
+    align-items: center; }
+
+  .navigation__menu {
+    padding-left: 10px; } }
+@media (max-width: 767px) {
+  .calendar_activated {
+    display: flex; }
+
+  .contact_section_form {
+    margin-top: 0; }
+
+  .contact_icon_block {
+    display: none; }
+
+  iframe {
+    border: none; }
+
+  .container_w {
+    display: none; }
+
+  .container_o {
+    display: block; }
+
+  nav {
+    padding: 5px 15px; }
+
+  .logo__phrase {
+    font-size: 24px; }
+
+  .about_us__wrapper {
+    padding-left: 3%; }
+
+  .main_offer_wrapper {
+    justify-content: space-around; }
+
+  .wrap_footer {
+    justify-content: space-around; }
+
+  .displayoff {
+    display: none; }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45px;
+    background-color: rgba(246, 246, 246, 0.659);
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    opacity: 0.7;
+    z-index: 999; }
+
+  .about_us__wrapper {
+    justify-content: center; }
+
+  .phone_icon {
+    font-size: 13px; }
+
+  .navigation__menu {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 50;
+    left: -100%;
+    justify-content: space-evenly;
+    transition: 0.2s all ease-in-out; }
+
+  .navigation__link {
+    color: white; }
+
+  .main_offer_section_2 {
+    animation: none; }
+
+  .main_offer {
+    transform: none;
+    padding-top: 0px; }
+
+  .about_us {
+    background-color: black;
+    position: fixed;
+    width: 100%; }
+
+  .phone_icon {
+    color: white; }
+
+  .paragraph {
+    color: white;
+    border-right: 1px dashed white; }
+
+  .footer_text {
+    transform: none;
+    margin: 0; }
+
+  .wrap_footer {
+    height: 100px; }
+
+  .footer_text_2 {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase; }
+
+  .logo__phrase {
+    display: none; }
+
+  header {
+    height: 95px;
+    display: flex;
+    align-items: center; }
+
+  .liactive {
+    left: 0; }
+
+  .navigation__link {
+    font-size: 22px;
+    font-weight: 900; } }
+@media (max-width: 668px) {
+  .main_offer_section_1_description {
+    width: 100%; } }
+@media (max-width: 654px) {
+  .main_offer_wrapper {
+    flex-direction: column;
+    justify-content: space-between; }
+
+  .main_offer {
+    height: 800px; }
+
+  .main_offer_section_2 {
+    margin-top: 5%; }
+
+  .footer_text_2 {
+    font-size: 7px; } }
+@media (max-width: 575px) {
+  .paragraph_pp {
+    width: 120px; }
+
+  .displayoff {
+    display: none; }
+
+  .main_offer_wrapper {
+    flex-direction: column;
+    justify-content: space-between; }
+
+  .main_offer {
+    height: 800px; }
+
+  .main_offer_section_1_description {
+    width: 400px; }
+
+  h1 {
+    text-align: center; }
+
+  .main_offer_section_1_description {
+    width: 80%;
+    margin: 0 auto; }
+
+  .main_offer_section_2 {
+    margin-top: 10%; }
+
+  .paragraph {
+    font-size: 8px;
+    width: 70px; }
+
+  .paragraph_pp {
+    width: 120px; }
+
+  iframe {
+    height: 260px; }
+
+  .about_us_email_block {
+    display: none; }
+
+  .footer_text_2 {
+    display: none; }
+
+  .navigation__menu {
+    width: 75%; }
+
+  .icon_nav_1 {
+    margin-right: 10px; }
+
+  .icon_nav_2 {
+    margin-right: 15px; } }
+
+/*# sourceMappingURL=style.css.map */

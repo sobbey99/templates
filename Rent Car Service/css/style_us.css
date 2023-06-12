@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+footer {
+  height: 100px; }
+
+.footer_text {
+  font-family: "Montserrat", sans-serif; }
+
+.wrap_footer {
+  display: flex;
+  justify-content: space-between; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.paragraph {
+  margin: 0;
+  font-size: 12px;
+  border-right: 1px dashed black;
+  padding-right: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #373434; }
+  .paragraph_two {
+    margin-left: 5px; }
+
+.logo {
+  display: block;
+  width: auto;
+  height: 60px; }
+
+header {
+  background-color: #F6F6F6;
+  width: 100%;
+  height: 100px; }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.logo__phrase {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 500; }
+
+.logo_wrap {
+  width: 200px;
+  height: auto;
+  margin-right: 75px;
+  padding-top: 8px; }
+
+.navigation__menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0; }
+
+.navigation__link {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.1s ease-in-out; }
+  .navigation__link:hover {
+    color: #ec1c00;
+    transition: all 0.3s linear; }
+
+.phone_icon {
+  width: 13px;
+  margin-right: 5px;
+  color: black; }
+
+.about_us__wrapper {
+  cursor: text;
+  display: flex; }
+
+.about_us {
+  background-color: rgba(0, 0, 0, 0.09); }
+
+.about_us_phone_block {
+  display: flex;
+  align-items: center; }
+
+.about_us_email_block {
+  margin-left: 5px;
+  align-items: center; }
+
+.about_us_working_hours {
+  margin-left: 5px;
+  align-items: center; }
+
+.paragraph_hours {
+  padding-left: 5px;
+  border: none; }
+
+.about_us_nonstop {
+  margin-left: 5px;
+  align-items: center; }
+
+.p_span {
+  font-weight: bold;
+  text-decoration: underline; }
+
+.footer_text {
+  font-family: "Montserrat", sans-serif; }
+
+.wrap_footer {
+  display: flex;
+  justify-content: space-between; }
+
+.footer_text_1 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.1em; }
+
+.footer_text_2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500px; }
+
+.contact_section {
+  height: 550px;
+  background-image: url("../img/bg_section_two.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px; }
+
+hr {
+  position: relative;
+  z-index: -1; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.about_descr {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white; }
+
+.contact_section {
+  padding-top: 80px; }
+
+.container_o {
+  display: none; }
+
+.wrap_footer {
+  align-items: center; }
+
+.container_bib {
+  display: none; }
+
+.links_to_categories {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px; }
+
+.category_link {
+  display: block;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: red;
+  text-transform: uppercase;
+  font-size: 21px;
+  color: aliceblue;
+  border-bottom: 1px solid aliceblue;
+  transition: all 0.3s ease-in-out; }
+  .category_link:hover {
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid blue; }
+
+.hamburger_line {
+  display: block;
+  width: 100%;
+  height: 4px;
+  margin-bottom: 6px;
+  background-color: black;
+  transition: 0.5s all; }
+
+.hamburger {
+  display: none;
+  width: 40px;
+  height: 12px; }
+  .hamburger_active span {
+    margin-bottom: -3px; }
+    .hamburger_active span:nth-child(1) {
+      transform: translateY(3px) rotate(-45deg); }
+    .hamburger_active span:nth-child(2) {
+      display: none; }
+    .hamburger_active span:nth-child(3) {
+      transform: translateY(3px) rotate(45deg); }
+
+@media (max-width: 1200px) {
+  .footer_text_2 {
+    text-transform: uppercase; } }
+@media (max-width: 991px) {
+  .container_w {
+    display: none; }
+
+  .container_o {
+    display: flex;
+    justify-content: center; }
+
+  .contact_section {
+    padding-top: 50px;
+    height: 700px; }
+
+  .navigation__link {
+    font-size: 18px; } }
+@media (max-width: 767px) {
+  .contact_section {
+    height: 800px; }
+
+  .footer_text_2 {
+    display: none; }
+
+  .wrap_footer {
+    justify-content: center; }
+
+  .paragraph {
+    font-size: 8px; }
+
+  .container_bib {
+    display: block; }
+
+  .container_bob {
+    display: none; }
+
+  nav {
+    padding: 0 10px;
+    width: 100%; }
+
+  .logo__phrase {
+    font-size: 24px; }
+
+  .about_us__wrapper {
+    padding-left: 3%; }
+
+  .main_offer_wrapper {
+    justify-content: space-around; }
+
+  .displayoff {
+    display: none; }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45px;
+    opacity: 0.8;
+    z-index: 999; }
+
+  .about_us__wrapper {
+    justify-content: center; }
+
+  .phone_icon {
+    font-size: 13px; }
+
+  .navigation__link {
+    color: white; }
+
+  .contact_section {
+    transform: none; }
+
+  .wrap_fixed_section {
+    position: relative; }
+
+  .navigation__menu {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 50;
+    left: -100%;
+    justify-content: space-evenly;
+    transition: 0.2s all ease-in-out; }
+
+  .navigation__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    transition: all 0.1s ease-in-out; }
+    .navigation__link:hover {
+      color: #ec1c00;
+      transition: all 0.3s linear; }
+
+  .liactive {
+    left: 0; }
+
+  .footer_text {
+    transform: none;
+    margin: 0; }
+
+  .wrap_footer {
+    height: 100px;
+    align-items: center;
+    justify-content: center; }
+
+  .footer_text_2 {
+    font-size: 8px;
+    font-weight: 600;
+    text-transform: uppercase; }
+
+  hr {
+    display: none; }
+
+  .about_us_working_hours, .about_us_nonstop {
+    display: none; } }
+@media (max-width: 585px) {
+  .about_descr {
+    font-size: 16px; }
+
+  .contact_section {
+    height: auto; } }
+
+/*# sourceMappingURL=style_us.css.map */
