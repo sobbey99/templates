@@ -62,6 +62,7 @@ section {
   justify-content: end;
   gap: 35px;
   align-items: center;
+  list-style-type: none;
 }
 
 .navigation__item a {
@@ -94,7 +95,7 @@ h2.subtitle {
 ul.projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 5rem;
+  gap: 20px;
   list-style: none;
 }
 
@@ -245,17 +246,109 @@ ul.projects {
   list-style: none;
 }
 
+.mobileMenu {
+  position: fixed;
+  height: 100vh;
+  background-color: rgba(39, 51, 89, 0.75);
+  width: 85vw;
+  right: 0;
+  top: 0;
+  display: block;
+  transform: translateX(110%);
+  transition: 0.3s all ease;
+}
+
+.mobileMenu.active {
+  transform: translateX(0);
+}
+
+.navigation__list_menu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  list-style: none;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.closeMenu {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.closeMenu img {
+  width: 100%;
+  height: 100%;
+}
+
+.hamburger-wrapper {
+  display: flex;
+  height: 100%;
+  justify-content: end;
+  align-items: center;
+  display: none;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 40px;
+}
+
+.hamburger span {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.hamburger_active span:nth-child(1) {
+  transform: translateY(3px) rotate(-45deg);
+}
+
+.hamburger_active span:nth-child(2) {
+  display: none;
+}
+
+.hamburger_active span:nth-child(3) {
+  transform: translateY(-2px) rotate(45deg);
+}
+
 @media screen and (max-width: 1400px) {
 }
 
 @media screen and (max-width: 1200px) {
+  ul.projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h2.subtitle {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 991px) {
+  .container {
+    max-width: none !important;
+  }
 }
 
 @media screen and (max-width: 776px) {
+  ul.projects {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 575px) {
+  ul.navigation__list {
+    display: none;
+  }
+  .hamburger-wrapper {
+    display: flex;
+  }
 }

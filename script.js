@@ -30,4 +30,30 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+  const hamburger = document.querySelector(".hamburger");
+  const mobileMenu = document.querySelector(".mobileMenu");
+  const closeMenu = document.querySelector(".closeMenu");
+  const allMobileMenuItems = document.querySelectorAll(
+    "li.navigation__item_mobile"
+  );
+
+  hamburger.addEventListener("click", (e) => {
+    e.preventDefault();
+    hamburger.classList.toggle("hamburger_active");
+    mobileMenu.classList.toggle("active");
+  });
+
+  closeMenu.addEventListener("click", (e) => {
+    e.preventDefault();
+    mobileMenu.classList.remove("active");
+    hamburger.classList.remove("hamburger_active");
+  });
+
+  allMobileMenuItems.forEach((item) => {
+    item.addEventListener("click", () => {
+      mobileMenu.classList.remove("active");
+      hamburger.classList.remove("hamburger_active");
+    });
+  });
 });
