@@ -289,7 +289,7 @@ ul.projects {
 .hamburger-wrapper {
   display: flex;
   height: 100%;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   display: none;
 }
@@ -299,6 +299,21 @@ ul.projects {
   flex-direction: column;
   gap: 4px;
   width: 40px;
+}
+
+.hamburger-logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hamburger-logo img {
+  width: 30px;
+  height: 30px;
 }
 
 .hamburger span {
