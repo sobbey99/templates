@@ -6,11 +6,1095 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Map of works</title>
   </head>
+  <link rel="stylesheet" href="./bootstrap-grid.min.css" />
   <link rel="stylesheet" href="style.css" />
   <body>
-    <h1>Click link to see the full template</h1>
+    <h1>All Projects</h1>
 
-    <ol>
+    <nav class="navigation">
+      <div class="container">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#3D">3D</a></li>
+          <li class="navigation__item"><a href="#WEB">Web Apps</a></li>
+          <li class="navigation__item"><a href="#MOBILE">Mobile Apps</a></li>
+          <li class="navigation__item"><a href="#REGULAR">HTML/SCSS</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <span id="3D" class="anchor"></span>
+    <section class="3D">
+      <div class="container">
+        <h2 class="subtitle">3D</h2>
+        <ul class="projects">
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/driving.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://courageous-syrniki-201320.netlify.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/driveQuiz3D"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">3D Driving Quiz</h3>
+            <p class="project__description">
+              Driving Quiz that allows to check for knowledge of traffic
+              laws.Cars are animated to drive in the correct direction after
+              choosing answer.All questions and options are voiced by robot.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#threejs</span>
+              <span class="project__tag tag2">#html/scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/cards.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://radiant-tartufo-d34e63.netlify.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/CardGame3D"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">3D Card Game</h3>
+            <p class="project__description">
+              Animated card game with sound accompaniment.
+              <br />
+              You will play versus robot and have 3 different types of card.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#threejs</span>
+              <span class="project__tag tag2">#html/scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/minecraft.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://minecraft-react-delta.vercel.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/minecraft-react"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Demo Minecraft</h3>
+            <p class="project__description">
+              Web Based Demo version of popular game Minecraft, similar physics
+              to minecraft of blocks.
+              <br />
+              5 types of texture and options for saving world.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#threejs</span>
+              <span class="project__tag tag2">#react</span>
+              <span class="project__tag tag3">#zustand</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/solar.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://stirring-valkyrie-69492f.netlify.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/Planets"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Solar System</h3>
+            <p class="project__description">
+              Three JS Scene which renders our solar system with all planets
+              rotating within.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#threejs</span>
+              <span class="project__tag tag2">#html/scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/iphone.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://iphone-3d-ten.vercel.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/iphone-3d"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">3D Iphone</h3>
+            <p class="project__description">
+              Awesome web site in style of Apple.
+              <br />
+              iPhone is animated and each flow of animation is triggered by
+              scrolling from section to section.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#threejs</span>
+              <span class="project__tag tag2">#html/scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/customize.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://customize-product3-d-ui.vercel.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/CustomizeProduct3D_ui"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">3D Customize Product</h3>
+            <p class="project__description">
+              Wonderful project which allows you to create your own design of
+              t-shirt.
+              <br />
+              On customize page you can ask AI for generating your logo or
+              texture for product.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#threejs</span>
+              <span class="project__tag tag2">#react</span>
+              <span class="project__tag tag3">#openai</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <span id="WEB" class="anchor"></span>
+    <section class="WEB">
+      <div class="container">
+        <h2 class="subtitle">Web applications</h2>
+        <ul class="projects">
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/dragon.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/2DShooter-main/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/2DShooter"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">2D Dragon Fire</h3>
+            <p class="project__description">
+              Simple 2D game in which you need to shot all enemies which are
+              going to you.
+              <br />
+              Wonderful animations of fire and of destroying enemies.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#javascript</span>
+              <span class="project__tag tag2">#html/scss</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/tiktik.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://tiktik-ui-tau.vercel.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/tiktik_ui"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">TikTik</h3>
+            <p class="project__description">
+              Web application TikTik is a social media platform You can login
+              via Google and upload the video. Other users might like your video
+              and see your profile.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#sanity</span>
+              <span class="project__tag tag2">#react</span>
+              <span class="project__tag tag3">#tailwind</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/sendcrypto.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://send-crypto-sooty.vercel.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/sendCrypto"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Send Crypto</h3>
+            <p class="project__description">
+              My first Web 3 application based on Ethereum mainnet which allows
+              you to connect metamask, see latest transactions and send funds to
+              other wallets.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#solidity</span>
+              <span class="project__tag tag2">#react</span>
+              <span class="project__tag tag3">#hardhat</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/foodstore.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://moldofood-ui.vercel.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/moldofood-ui"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Food Store</h3>
+            <p class="project__description">
+              E-commerce food store project with custom admin panel which allows
+              admins to easily manage orders, products, etc.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#nestjs</span>
+              <span class="project__tag tag2">#react</span>
+              <span class="project__tag tag3">#postgresql</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/deliveryparcels.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://moldoship-ui.vercel.app/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/moldoship-ui"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Delivery Parcels</h3>
+            <p class="project__description">
+              This web application allow users to make order for transporting
+              their parcels between Moldova and UK.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#nestjs</span>
+              <span class="project__tag tag2">#react</span>
+              <span class="project__tag tag3">#postgresql</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <span id="MOBILE" class="anchor"></span>
+    <section class="MOBILE">
+      <div class="container">
+        <h2 class="subtitle">Mobile Applications</h2>
+        <ul class="projects">
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/dragon.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/2DShooter-main/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/2DShooter"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">2D Dragon Fire</h3>
+            <p class="project__description">
+              Simple 2D game in which you need to shot all enemies which are
+              going to you.
+              <br />
+              Wonderful animations of fire and of destroying enemies.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#javascript</span>
+              <span class="project__tag tag2">#html/scss</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <span id="REGULAR" class="anchor"></span>
+    <section class="REGULAR">
+      <div class="container">
+        <h2 class="subtitle">HTML/SCSS/JS</h2>
+        <ul class="projects">
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/marketing.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Marketing%20Company/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Marketing%20Company"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Marketing Company</h3>
+            <p class="project__description">
+              HTML template for
+              <br />
+              digital marketing company.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html</span>
+              <span class="project__tag tag2">#scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/air.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Air%20Conditioner%20Service/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/airprime"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Air Conditioner</h3>
+            <p class="project__description">
+              Animated HTML landing page template for
+              <br />
+              digital marketing company.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html/scss</span>
+              <span class="project__tag tag2">#javascript</span>
+              <span class="project__tag tag3">#animate.css</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/actor.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Actors%20Studio/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Actors%20Studio"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Actors Studio</h3>
+            <p class="project__description">
+              Animated HTML landing page template for
+              <br />
+              studio of professional actors.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html/scss</span>
+              <span class="project__tag tag2">#javascript</span>
+              <span class="project__tag tag3">#animate.css</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/clothes.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Clothes%20Store/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Clothes%20Store"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Clothes Store</h3>
+            <p class="project__description">
+              Simple hello page template for
+              <br />
+              clothes store.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html</span>
+              <span class="project__tag tag2">#scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/gsm.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/GSM%20Service/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/gsm"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">GSM Service</h3>
+            <p class="project__description">
+              HTML Template of couple pages for
+              <br />
+              GSM repair company.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html/scss</span>
+              <span class="project__tag tag2">#javascript</span>
+              <span class="project__tag tag3">#animate.css</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/rentcar.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Rent%20Car%20Service/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Rent%20Car%20Service"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Rent Car</h3>
+            <p class="project__description">
+              HTML Landing page for
+              <br />
+              Rent Car company.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html</span>
+              <span class="project__tag tag2">#scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/roof.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Roof%20Service/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Roof%20Service"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Roof Service</h3>
+            <p class="project__description">
+              HTML Landing page for
+              <br />
+              Roof construction company.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html/scss</span>
+              <span class="project__tag tag2">#javascript</span>
+              <span class="project__tag tag3">#animate.css</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/truck.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Truck%20Dispatch%20Service/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Truck%20Dispatch%20Service"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Dispatch Service</h3>
+            <p class="project__description">
+              HTML Landing page for
+              <br />
+              Truck Dispatch company.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html/scss</span>
+              <span class="project__tag tag2">#bootstrap</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/dietary.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Dietary%20Regime/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Dietary%20Regime"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Dietary Regime</h3>
+            <p class="project__description">
+              Page for calculating right
+              <br />
+              diet for health.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html</span>
+              <span class="project__tag tag2">#scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/education.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Education%20Service/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Education%20Service"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Education Service</h3>
+            <p class="project__description">
+              HTML template of couple of pages for
+              <br />
+              online learning platform.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html</span>
+              <span class="project__tag tag2">#scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/device.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Health%20Device/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Health%20Device"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Health Device</h3>
+            <p class="project__description">
+              Product Landing Page for
+              <br />
+              health device.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html</span>
+              <span class="project__tag tag2">#scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/portret.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Portret%20Service/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Portret%20Service"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Portret Service</h3>
+            <p class="project__description">
+              HTML Page for company which will help in
+              <br />
+              creating your own portret.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html</span>
+              <span class="project__tag tag2">#scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/window.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Window%20Service/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Window%20Service"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Window Service</h3>
+            <p class="project__description">
+              HTML Page for company which will help in
+              <br />
+              installing/repair windows.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html</span>
+              <span class="project__tag tag2">#scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+
+          <li class="project">
+            <div class="project__top">
+              <img
+                src="./screens/uber.png"
+                alt="project__img"
+                class="project__img"
+              />
+
+              <div class="check-buttons">
+                <a
+                  href="https://templates-snowy.vercel.app/Uber%20Landing/"
+                  target="_blank"
+                  class="thebutton preview-button"
+                >
+                  <img src="./screens/webdemo.svg" alt="preview" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/sobbey99/templates/tree/master/Uber%20Landing"
+                  class="thebutton code-button"
+                >
+                  <img src="./screens/github.png" alt="source_code" />
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project__title">Uber Landing</h3>
+            <p class="project__description">
+              HTML Landing Page for company taxi company
+              <br />
+              which works under Uber License.
+            </p>
+
+            <div class="project__tags">
+              <span class="project__tag tag1">#html</span>
+              <span class="project__tag tag2">#scss</span>
+              <span class="project__tag tag3">#javascript</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- <ol>
       <li>
         <a href="/2DShooter-main/" target="_blank">2D Shooter (for PC)</a>
       </li>
@@ -63,6 +1147,6 @@
       <li>
         <a href="/Window Service/" target="_blank">Window Service</a>
       </li>
-    </ol>
+    </ol> -->
   </body>
 </html>
