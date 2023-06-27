@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
   allTriggerModalPhoneBtns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
-
+      document.querySelector("html").classList.add("noscroll");
       if (e.target.nodeName == "IMG") {
         const phoneModal = e.target.parentNode.nextElementSibling;
         phoneModal.classList.toggle("phone-modal_active");
@@ -21,6 +21,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   allCloseModalPhoneBtns.forEach((close) => {
     close.addEventListener("click", (e) => {
+      document.querySelector("html").classList.remove("noscroll");
       if (e.target.nodeName == "IMG") {
         e.target.parentNode.parentNode.parentNode.classList.remove(
           "phone-modal_active"
@@ -42,18 +43,21 @@ window.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     hamburger.classList.toggle("hamburger_active");
     mobileMenu.classList.toggle("active");
+    document.querySelector("html").classList.add("noscroll");
   });
 
   closeMenu.addEventListener("click", (e) => {
     e.preventDefault();
     mobileMenu.classList.remove("active");
     hamburger.classList.remove("hamburger_active");
+    document.querySelector("html").classList.remove("noscroll");
   });
 
   allMobileMenuItems.forEach((item) => {
     item.addEventListener("click", () => {
       mobileMenu.classList.remove("active");
       hamburger.classList.remove("hamburger_active");
+      document.querySelector("html").classList.remove("noscroll");
     });
   });
 });

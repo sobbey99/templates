@@ -320,6 +320,10 @@ ul.projects {
   transform: translateY(-2px) rotate(45deg);
 }
 
+.noscroll {
+  overflow: hidden !important;
+}
+
 @media screen and (max-width: 1400px) {
 }
 
@@ -341,6 +345,14 @@ ul.projects {
 @media screen and (max-width: 776px) {
   ul.projects {
     grid-template-columns: 1fr;
+  }
+
+  .qr {
+    height: 200px;
+  }
+  .phone-modal .content {
+    text-align: center;
+    padding: 0 1rem;
   }
 }
 
